@@ -1,2 +1,4 @@
-myfile
-new file
+create table emp(eid int,ename string)
+row format delimited
+fields teminated by','
+stored as 'parquet'
